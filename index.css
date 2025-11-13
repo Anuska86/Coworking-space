@@ -48,8 +48,10 @@ h1 {
   font-weight: 400;
   color: var(--papaya-whip);
   text-align: center;
-  padding: 40px 0 20px;
+  padding: 15px;
   margin: 0;
+  border-top: 1px solid var(--papaya-whip);
+  border-bottom: 1px solid var(--papaya-whip);
 }
 
 /*Nav*/
@@ -104,4 +106,5 @@ header {
 img {
   width: 600px;
   border-radius: 6px;
+  margin: 20px;
 }
