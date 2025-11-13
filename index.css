@@ -9,10 +9,32 @@
 
 /*Base*/
 
+html {
+  min-height: 100%;
+}
+
 body {
   margin: 0;
   padding: 0;
   font-family: "Montserrat", sans-serif;
+  background: radial-gradient(
+    circle at center,
+
+    var(--papaya-whip) 0%,
+
+    var(--caribbean-current) 50%,
+
+    var(--rich-black) 100%
+  );
+
+  min-height: 100vh;
+}
+
+.main-content {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
 }
 
 /*Typography*/
@@ -21,11 +43,20 @@ body {
   font-family: "Montserrat", sans-serif;
 }
 
+h1 {
+  font-size: 40px;
+  font-weight: 400;
+  color: var(--papaya-whip);
+  text-align: center;
+  padding: 40px 0 20px;
+  margin: 0;
+}
+
 /*Nav*/
 
 nav {
   background-color: var(--sienna);
-  height: 80px;
+  margin: 0 auto;
   padding: 10px 20px;
 }
 
@@ -51,6 +82,14 @@ nav a {
   text-decoration: none;
 }
 
+/*Heading*/
+
+header {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
 /*Links*/
 
 /*Icons*/
@@ -58,4 +97,11 @@ nav a {
 .icon {
   width: 32px;
   margin: 4px;
+}
+
+/*Images*/
+
+img {
+  width: 600px;
+  border-radius: 6px;
 }
