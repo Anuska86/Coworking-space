@@ -5,6 +5,13 @@
   --papaya-whip: #ffecd1ff;
   --orange-wheel: #ff7d00ff;
   --sienna: #78290fff;
+
+  /* CSS HEX */
+  --dark-slate-gray: #335c67ff;
+  --vanilla: #fff3b0ff;
+  --hunyadi-yellow: #e09f3eff;
+  --auburn: #9e2a2bff;
+  --chocolate-cosmos: #540b0eff;
 }
 
 /*Base*/
@@ -138,4 +145,12 @@ button {
   padding: 10px 15px;
   font-weight: 700;
   cursor: pointer;
+  margin: auto;
+  border-radius: 4px;
+}
+
+button:hover,
+button:focus {
+  background-color: var(--hunyadi-yellow);
+  color: var(--chocolate-cosmos);
 }
