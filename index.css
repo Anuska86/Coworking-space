@@ -79,6 +79,8 @@ nav a {
   margin-left: auto;
 }
 
+/*LAYOUT*/
+
 /*Heading*/
 
 header {
@@ -88,7 +90,14 @@ header {
   background-color: var(--sienna);
 }
 
-/*Links*/
+/*Caption*/
+
+.caption {
+  margin: 0 25px;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
 
 /*Icons*/
 
@@ -117,4 +126,17 @@ img {
   position: absolute;
   top: 0;
   left: 0;
+}
+
+/*Buttons*/
+
+button {
+  border: none;
+  background-color: var(--sienna);
+  color: whitesmoke;
+  padding: 10px 15px;
+  font-weight: 700;
+  cursor: pointer;
+  display: flex;
+  margin-left: auto;
 }
