@@ -81,6 +81,10 @@ nav a {
   text-decoration: none;
 }
 
+.menu-bar {
+  margin-left: auto;
+}
+
 /*Heading*/
 
 header {
@@ -105,4 +109,19 @@ img {
   width: 600px;
   border-radius: 6px;
   margin: 20px;
+}
+
+/*Banners*/
+
+.item {
+  position: relative;
+}
+
+.img-banner {
+  background-color: var(--sienna);
+  color: whitesmoke;
+  padding: 10px;
+  position: absolute;
+  top: 20px;
+  left: 150px;
 }
