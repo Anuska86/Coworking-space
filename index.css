@@ -45,9 +45,12 @@ body {
 }
 
 h1 {
-  font-size: 60px;
-  font-weight: 400;
-  color: var(--papaya-whip);
+  font-size: 48px;
+  font-weight: 700;
+  color: var(--auburn);
+  letter-spacing: 1px;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+
   text-align: center;
   padding: 25px;
   margin: 0;
@@ -104,6 +107,21 @@ header {
   display: flex;
   justify-content: space-between;
   gap: 20px;
+}
+
+/*Items*/
+
+.item {
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  margin: 30px 0;
+  overflow: hidden;
+  transition: transform 0.3s ease;
+}
+
+.item:hover {
+  transform: scale(1.02);
 }
 
 /*Icons*/
