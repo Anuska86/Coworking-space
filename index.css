@@ -50,10 +50,10 @@ h1 {
   color: var(--auburn);
   letter-spacing: 1px;
   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
-
   text-align: center;
   padding: 25px;
   margin: 0;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1), 0 0 10px rgba(248, 248, 248, 0.76);
 }
 
 /*Nav*/
@@ -87,6 +87,7 @@ nav a {
 
 .menu-bar {
   margin-left: auto;
+  cursor: pointer;
 }
 
 /*LAYOUT*/
@@ -103,10 +104,12 @@ header {
 /*Caption*/
 
 .caption {
-  margin: 0 25px;
-  display: flex;
-  justify-content: space-between;
-  gap: 20px;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+  font-size: 16px;
+  color: var(--rich-black);
 }
 
 /*Items*/
@@ -183,10 +186,13 @@ button {
   cursor: pointer;
   margin: auto;
   border-radius: 4px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease, transform 0.2s ease;
 }
 
 button:hover,
 button:focus {
   background-color: var(--hunyadi-yellow);
   color: var(--chocolate-cosmos);
+  transform: translateY(-2px);
 }
